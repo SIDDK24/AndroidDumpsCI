@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://otafsg-cost-az.coloros.com/OnePlus9R_IND/OnePlus9ROxygen_13.I.07_GLO_0070_2111230200/patch/amazone2/GLO/OnePlus9ROxygen/OnePlus9ROxygen_13.I.07_GLO_0070_2111230200/OnePlus9ROxygen_13.I.07_OTA_0070_all_2111230200_c1541.zip
+  ROM_URL: https://otafsg-cost-az.coloros.com/Nord_IND/NordOxygen_14.I.24_GLO_0240_2112032112/patch/amazone2/GLO/NordOxygen/NordOxygen_14.I.24_GLO_0240_2112032112/NordOxygen_14.I.24_OTA_0240_all_2112032112_590b68.zip
 
 jobs:
   build:
