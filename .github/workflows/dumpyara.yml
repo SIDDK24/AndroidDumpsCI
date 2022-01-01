@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://repo.hitcloud.workers.dev/0:/Android/Samsung/SM-A750G_2_20210619033709_qvq77hm9kk_fac_A750GUBU6CUD2_A750GOWO6CUE1_A750GNUBU6CUD6_A750GUBU6CUD2_ZTO.zip
+  ROM_URL: https://otafsg-cost-az.coloros.com/OnePlus9R_IND/OnePlus9ROxygen_13.I.07_GLO_0070_2111230200/patch/amazone2/GLO/OnePlus9ROxygen/OnePlus9ROxygen_13.I.07_GLO_0070_2111230200/OnePlus9ROxygen_13.I.07_OTA_0070_all_2111230200_c1541.zip
 
 jobs:
   build:
