@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://otafsg-cost-az.coloros.com/Nord/NordOxygen_14.O.25_GLO_0250_2201171943/patch/amazone2/GLO/NordOxygen/NordOxygen_14.O.25_GLO_0250_2201171943/NordOxygen_14.O.25_OTA_0250_all_2201171943_ecbe544c8706694.zip 
+  ROM_URL: https://otafsg-cost-az.coloros.com/Nord/NordOxygen_14.O.23_GLO_0230_2110142343/patch/amazone2/GLO/NordOxygen/NordOxygen_14.O.23_GLO_0230_2110142343/NordOxygen_14.O.23_OTA_0230_all_2110142343_5b6a530c0.zip 
 
 jobs:
   build:
