@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://oxygenos.oneplus.net/LE2101_11_C_OTA_1130_all_6a0ea2_00011011.zip 
+  ROM_URL: https://assorted.downloads.oppo.com/firmware/CPH2173/CPH2173_11_C_OTA_1020_all_367bfa_00011010.zip 
 
 jobs:
   build:
