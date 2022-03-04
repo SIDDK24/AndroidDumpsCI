@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://assorted.downloads.oppo.com/firmware/CPH2173/CPH2173_11_C_OTA_1020_all_367bfa_00011010.zip 
+  ROM_URL: https://dl.google.com/dl/android/aosp/raven-ota-sq1d.220205.004-408ce2fc.zip 
 
 jobs:
   build:
