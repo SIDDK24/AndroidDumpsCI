@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://dl.google.com/dl/android/aosp/raven-ota-sq1d.220205.004-408ce2fc.zip 
+  ROM_URL: https://manikantaraavi.raavimanikanta6595.workers.dev/0:/OnePlus9ROxygen_13.I.14_OTA_1030_all_2203150046_dc1e9e.zip
 
 jobs:
   build:
