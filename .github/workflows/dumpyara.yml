@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://otafsg-cost-az.coloros.com/OnePlus9R_IND/OnePlus9ROxygen_13.I.14_GLO_1030_2203150046/patch/amazone2/INT/OnePlus9ROxygen/OnePlus9ROxygen_13.I.14_GLO_1030_2203150046/OnePlus9ROxygen_13.I.14_OTA_1030_all_2203150046_dc1e9e.zip
+  ROM_URL: https://oxygenos.oneplus.net/AC2001_11_F_OTA_2090_all_ad468c_00011011.zip
 
 jobs:
   build:
