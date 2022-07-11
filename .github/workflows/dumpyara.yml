@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://otafsg-cost-az.coloros.com/Nord/NordOxygen_14.O.11_GLO_2110_2205021357/patch/amazone2/INT/NordOxygen/NordOxygen_14.O.11_GLO_2110_2205021357/NordOxygen_14.O.11_OTA_2110_all_2205021357_41f0205911771.zip
+  ROM_URL: https://manikantaraavi.raavimanikanta6595.workers.dev/0:/Nameless-AOSP_kebab-12.1-20220711-1005-Official.zip
 
 jobs:
   build:
