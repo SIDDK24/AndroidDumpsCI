@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://dl.google.com/dl/android/aosp/raven-tp1a.220905.004-factory-4dba4ced.zip
+  ROM_URL: https://bigota.d.miui.com/V13.1.22.9.5.DEV/miui_NABU_V13.1.22.9.5.DEV_a630d86a96_12.0.zip
 
 jobs:
   build:
@@ -29,8 +29,8 @@ jobs:
          working-directory: firmware_dumper
          run: |
               sudo bash setup.sh
-              git config --global user.name "Manikantaraavi"
-              git config --global user.email "raavimanikanta6595@gmail.com"
+              git config --global user.name "SIDDK24"
+              git config --global user.email "skoyande17@gmail.com"
 
        - name: Setup config envs
          working-directory: firmware_dumper
