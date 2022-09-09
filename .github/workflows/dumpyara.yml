@@ -1,17 +1,14 @@
 name: Dump
  
 on:
-  push:
-    paths-ignore:
-      - '*.md'
-    branches: [ main ]
-
-defaults:
-  run:
-    shell: bash
+  workflow_dispatch:
+    inputs:
+      ROM_URL:
+        description: 'Enter Direct Download Link'
+        required: true
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V13.1.22.9.5.DEV/miui_NABU_V13.1.22.9.5.DEV_a630d86a96_12.0.zip
+  ROM_URL: ${{ github.event.inputs.ROM_URL }}
 
 jobs:
   build:
@@ -37,8 +34,6 @@ jobs:
          run: |
               echo "${{ secrets.GIT_TOKEN }}" > .github_token
               echo "${{ secrets.GIT_ORG_NAME }}" > .github_orgname
-              echo "${{ secrets.BOT_TOKEN }}" > .tg_token
-              echo "${{ secrets.CHAT_ID }}" > .tg_chat
 
        - name: Running Dumpyara
          working-directory: firmware_dumper
